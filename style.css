@@ -1,0 +1,50 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:#000000;
+}
+.cop {
+    font-size: 40px;
+    font-weight: 300px;
+    background-color:#f6ff00;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 70vh;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 0  0 50px #0109fa;
+    background-color:#008080;
+}
+
+   /*buttons designing*/
+
+   button {
+    padding: 10px;
+    border-radius: 20px;
+    border-color:#ff0000;
+    background-color:#ffe4c4;
+}
+
+#resetBtn {
+    font-size: 20px;
+    padding: 4px 10px;
+    border: 2px solid #f10404;
+}
+
